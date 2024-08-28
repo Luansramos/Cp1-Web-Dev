@@ -1,0 +1,33 @@
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-number {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-icon {
+  font-size: 24px;
+}
+
+.card-title {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card-description {
+  font-size: 14px;
+}

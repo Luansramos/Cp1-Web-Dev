@@ -1,18 +1,22 @@
-.app nav {
+.header {
+  background-color: #f0f0f0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 10px;
-  background-color: #f0f0f0;
 }
 
-.app nav a {
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a {
   text-decoration: none;
   color: black;
   padding: 10px;
 }
 
-.app nav a.active {
+.header nav a.active {
   font-weight: bold;
   border-bottom: 2px solid blue;
 }
