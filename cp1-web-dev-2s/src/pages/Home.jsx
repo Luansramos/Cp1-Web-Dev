@@ -19,6 +19,8 @@ function Home() {
             className="home-image"
             src="https://s3-alpha-sig.figma.com/img/015a/13d5/4ab40031538d3268e234fe4bef1c6a8f?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dGYlIAmjcSIRyIBEh3Gg6~yS3JJZhhwQTpaVasa0shc9pQg1oTkeK6-nFG3syIRqMn9WoGqw~Z7UlGdY-EbQWdgB3ZLHZsHlGj1Lr9-MRI2M-HvS8XXHh1T1HNdLFZ0tjdmL43ZTNL~W6c~peJulehwz6MOj3PsNdgjpFlVHK~tK0VcZPxLtV0z~XVFbKt0BSHtxt4ZYiG1B35cGiqFY73SQoZj8j5sH8dcBq1rDfy6dR4sTf-hJgAega0gcuhffWTNwcNlLOKyE0wAQIS1BJ1~~o8u2XN-FdvcQN3mesjKuRq6cqxXE7Bb4UB85F6dAXy3OngJDHNV5kLmDmJExlA__"
             alt="Homem pulando"
+            width={700}
+            height={700}
           />
         </div>
       </div>
