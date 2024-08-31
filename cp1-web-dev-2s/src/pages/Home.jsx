@@ -1,8 +1,44 @@
 import React from "react";
 import Card from "../componentes/Card";
 import "./Home.css";
+import "../componentes/Card.css";
 
 function Home() {
+  const cardData = [
+    {
+      bgColor: "#f28b82",
+      title: "YouTube",
+      icon: "📹",
+      number: "01",
+      description:
+        "Produza conteúdos criativos e envolventes para atrair um público digital do mundo todo.",
+    },
+    {
+      bgColor: "#fbbc04",
+      title: "TikTok",
+      icon: "🎵",
+      number: "02",
+      description:
+        "Explore as curiosidades da internet e compartilhe seus vídeos com a comunidade global do TikTok.",
+    },
+    {
+      bgColor: "#34a853",
+      title: "Facebook",
+      icon: "📘",
+      number: "03",
+      description:
+        "Conecte-se com seus espectadores e compartilhe seus vídeos na linha do tempo e no feed do Facebook.",
+    },
+    {
+      bgColor: "#4285f4",
+      title: "Instagram",
+      icon: "📸",
+      number: "04",
+      description:
+        "Compartilhe sua visão e expresse sua criatividade com vídeos e histórias no Instagram.",
+    },
+  ];
+
   return (
     <div className="home">
       <div className="home-content">
@@ -26,34 +62,16 @@ function Home() {
       </div>
 
       <div className="card-container">
-        <Card
-          bgColor="#f28b82"
-          title="YouTube"
-          icon="📹"
-          number="01"
-          description="Produza conteúdos criativos e envolventes para atrair um público digital do mundo todo."
-        />
-        <Card
-          bgColor="#fbbc04"
-          title="TikTok"
-          icon="🎵"
-          number="02"
-          description="Explore as curiosidades da internet e compartilhe seus vídeos com a comunidade global do TikTok."
-        />
-        <Card
-          bgColor="#34a853"
-          title="Facebook"
-          icon="📘"
-          number="03"
-          description="Conecte-se com seus espectadores e compartilhe seus vídeos na linha do tempo e no feed do Facebook."
-        />
-        <Card
-          bgColor="#4285f4"
-          title="Instagram"
-          icon="📸"
-          number="04"
-          description="Compartilhe sua visão e expresse sua criatividade com vídeos e histórias no Instagram."
-        />
+        {cardData.map((card, index) => (
+          <Card
+            key={index}
+            bgColor={card.bgColor}
+            title={card.title}
+            icon={card.icon}
+            number={card.number}
+            description={card.description}
+          />
+        ))}
       </div>
     </div>
   );

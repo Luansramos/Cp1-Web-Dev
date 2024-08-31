@@ -6,13 +6,22 @@ function Header() {
   return (
     <header className="header">
       <nav>
-        <NavLink to="/" exact activeClassName="active">
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           Home
         </NavLink>
-        <NavLink to="/sobre" activeClassName="active">
+        <NavLink
+          to="/sobre"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           Sobre
         </NavLink>
-        <NavLink to="/contato" activeClassName="active">
+        <NavLink
+          to="/contato"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
           Contato
         </NavLink>
       </nav>

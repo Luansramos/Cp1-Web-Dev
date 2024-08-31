@@ -19,3 +19,8 @@
   font-weight: bold;
   border-bottom: 2px solid blue;
 }
+
+.active {
+  font-weight: bold;
+  color: #ff6347;
+}
