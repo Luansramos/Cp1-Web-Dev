@@ -1,65 +1,61 @@
-/* Estilos gerais para o cartão */
+
 .card {
-    width: 250px; /* Largura do cartão */
-    background-color: #fff; /* Cor de fundo branca */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    overflow: hidden; /* Para manter o conteúdo dentro do cartão */
-    margin: 20px; /* Espaço ao redor do cartão */
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    text-align: center; /* Centralizar texto */
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between
 }
 
-/* Estilo da parte superior do cartão */
 .card-top {
-    padding: 15px; /* Espaçamento interno */
-    font-weight: bold; /* Texto em negrito */
-    border-top-left-radius: 10px; /* Bordas arredondadas superiores */
+    padding: 15px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
 }
 
-/* Estilo para o conteúdo do resto do cartão */
 .restoCard {
-    padding: 20px; /* Espaçamento interno */
+    padding: 20px;
 }
 
-/* Estilo para o texto de informações */
 .pessoas{
-    margin: 10px 0; /* Espaçamento entre parágrafos */
-    color: #7c7c7c; /* Cor do texto cinza */
-    font-size: 14px; /* Tamanho da fonte */
+    margin: 10px 0;
+    color: #7c7c7c;
+    font-size: 14px;
 }
 .planos{
     font-size: 14px;
     color: black;
 }
 
-/* Estilo para o botão de ação */
 .botaoplanos {
-    background-color: #6B74E6; /* Cor de fundo do botão */
-    color: black; /* Cor do texto do botão */ /* Remover borda padrão */
-    border-radius: 3px; /* Bordas arredondadas do botão */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 14px; /* Tamanho da fonte */
-    cursor: pointer; /* Alterar cursor para indicar que é clicável */
-    width:150px; /* Largura total do botão */
-    margin-top: 30px; /* Espaço acima do botão */
+    background-color: #6B74E6;
+    color: black;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    width:150px;
+    margin-top: 30px;
     border-color: black;
 }
 
 .botaoplanos:hover {
-    background-color: #575fcf; /* Cor de fundo ao passar o mouse */
+    background-color: #575fcf;
 }
 
-/* Estilo para a imagem (se houver) */
+
 .restoCard img {
-    max-width: 100%; /* Largura máxima da imagem */
-    height: auto; /* Altura automática para manter a proporção */
-    margin: 10px 0; /* Espaçamento acima e abaixo da imagem */
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
 }
 
 .titulo{
