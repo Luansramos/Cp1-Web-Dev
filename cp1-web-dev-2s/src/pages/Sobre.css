@@ -58,8 +58,8 @@ html, body {
 
 
 .imagem-1, .imagem-2{
-    height: 636px;
-    width: 300px;
+    height: 600px;
+    width: 270px;
     background-color: brown;
     border-radius: 30px;
 }
@@ -67,11 +67,11 @@ html, body {
 
 .imagem-1{
     background-image: url(https://s3-alpha-sig.figma.com/img/bc29/5f3d/7a5c9308bdb1bbf1abc6cca471b6e6bb?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p3bpyTZSUeyRnQOh3U3~m~SRRqoJqCRGGYqRE~gEnfUwjL9ZkEKrI4dcFkVfFbGvruskCISeZ0M2c-3iVgVv6xNT0fCy~l6Oi9DFyypKoDA7oqN1zF9bKwc9kIkVNyNFaJLLJUUWpvCzFBODZoaP75cqKZWlm59dHvUYbcmgsTXIALqbOY-yt-n-cyzq3KRPpJSPSLtFqKoe9hbYD8IF-HgmCOPuGYrN4808TURK5yHQh5AJc~CbfRoGzLLKpVfltNsh1ht-Do2CDTho~kgbKY2rudAP~V6AHCXLHIUpih5hil~rkK9KCU8mTCXhjmQ8r9Gwki7UtB7hAWtuY2INHQ__);
-    background-size: cover;
+    background-size:contain;
 }
 .imagem-2{
     background-image: url(https://s3-alpha-sig.figma.com/img/b755/2471/42f19cf580913103daa93e9be17d90c4?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xj5uMzvJ8QSDaAu4YKUzufFYzXsUgAGGDNrcnknj8F3P3Xs6-mzxUs-QXXctrvPCPAQVgbSF4sUrfMf5HMUhit9YZ5jgql4OV6tCTjGf07~DWaPoJE-6AuJAl-31BiiI2o~TjMBVzxEsEf-y~B1ji~OakJMTd3nAzkACWR6YeAE5GkOanTFLu1ZU1FIWOqjk04f5JArZOhF~aDoQRAeNCi18-F--P-I4XRIKaFk0SQ5SXY85EdtrxWilOE9aB1q~YaX457EZpIEacpZUd41~bAivKG2u1QTe0D2lwB-Vx87gi2Yeo4dgSGKrXr5GgEsWeEH2JHzV7Kd2gzq2ielYdw__);
-    background-size: cover;
+    background-size: contain;
 }
 
 
