@@ -88,4 +88,34 @@ html, body {
     border-radius: 50px; 
 }
 
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.novo-conteudo {
+    margin-top: px; /* Espaçamento entre o conteúdo existente e o novo */
+    padding: 20px;
+    background-color: rgb(240, 240, 240); /* Estilo opcional para diferenciação */
+    width: 100%;
+}
+
+.tituloplanos{
+    margin-top: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+.planos{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 
