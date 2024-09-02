@@ -13,20 +13,22 @@ function Sobre(){
                         <p className="descricao">Somos uma startup com o objetivo de facilitar a produção de conteúdo em larga escala com qualidade profissional, capaz de atingir uma audiência de milhões de seguidores.</p>
 
                     </div>
-                    <button>Baixe o app</button>
+                    <button className="botao">Baixe o app</button>
 
                 </section>
 
                 <figure className="container-2">
                     
-                    <div className="imagem-1">
-                        a
+                    <div className="imagem-1" >
+
                     </div>
 
 
                     <div className="imagem-2">
-                        b
+
                     </div>  
+
+
                 </figure>
 
 
