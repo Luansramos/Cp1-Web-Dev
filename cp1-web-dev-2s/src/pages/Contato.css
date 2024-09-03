@@ -76,3 +76,33 @@
 .contact-right button:hover {
   background-color: #3730a3;
 }
+
+@media (max-width: 768px) {
+  .container-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-contato > div,
+  .container-contato > form {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  form button {
+    width: 100%;
+  }
+}
