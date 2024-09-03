@@ -1,8 +1,9 @@
 
 .card {
-    width: 250px;
+    width: 250px; 
     background-color: #fff;
-    border-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 20px;
@@ -23,6 +24,10 @@
 
 .restoCard {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    background-color: white;
 }
 
 .pessoas{
@@ -30,9 +35,12 @@
     color: #7c7c7c;
     font-size: 14px;
 }
-.planos{
+.planos1{
     font-size: 14px;
     color: black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    width: 180px;
+    
 }
 
 .botaoplanos {
@@ -45,6 +53,8 @@
     width:150px;
     margin-top: 30px;
     border-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .botaoplanos:hover {
