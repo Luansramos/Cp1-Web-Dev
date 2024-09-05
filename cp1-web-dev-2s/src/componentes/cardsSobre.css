@@ -1,9 +1,9 @@
 
-.card {
+.cards {
     width: 250px; 
     background-color: #fff;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 20px;
@@ -17,16 +17,18 @@
 .card-top {
     padding: 15px;
     font-weight: bold;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     width: 100%;
 }
 
 .restoCard {
+    height: 300px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: first baseline;
+    justify-content: space-around;
+    align-items: center;
     background-color: white;
 }
 
@@ -50,8 +52,7 @@
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
-    width:150px;
-    margin-top: 30px;
+    width:200px;
     border-color: black;
     display: flex;
     justify-content: center;
@@ -70,4 +71,9 @@
 
 .titulo{
     color: black;
+}
+
+.sobreimagem{
+    width: 150px;
+    margin-left: 100px;
 }
