@@ -30,7 +30,7 @@ function Sobre(){
             titulo: "Corporativo",
             pessoas1: "",
             pessoas2: "",
-            img: "https://cdn.discordapp.com/attachments/773922790264274976/1280168766914953298/image.png?ex=66d71992&is=66d5c812&hm=046978d3dbbaa37d46b5abffceb8a38bac2776f0199d16bbd964bc7495173fb5&",
+            img: "https://i.ibb.co/k5vk6jN/Screenshot-2.png",
             botao:"Entre em contato",
             color:"white",
             planos:"",

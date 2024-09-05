@@ -5,7 +5,7 @@ export default function Cards({dados}){
         <>
         {
             dados.map((pegaDados, index) => (
-            <div className="card"
+            <div className="cards"
             key={index}>
                 <div className="card-top" style={{backgroundColor: pegaDados.color }}>
                     <p className="titulo">{pegaDados.titulo}</p>
@@ -13,7 +13,7 @@ export default function Cards({dados}){
                 <div className="restoCard">
                     <p className="pessoas">{pegaDados.pessoas1}</p>
                     <p className="planos1">{pegaDados.planos}</p>
-                    <img src={pegaDados.img} alt="" />
+                    <img className="sobreimagem" src={pegaDados.img} alt="" />
                     <p className="pessoas">{pegaDados.pessoas2}</p>
                     <p className="planos1">{pegaDados.planos2}</p>
                     <button className="botaoplanos"style={{backgroundColor: pegaDados.color}}>{pegaDados.botao}</button>
